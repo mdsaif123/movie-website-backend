@@ -47,12 +47,9 @@ const app = express();
 
 // Middleware to parse JSON data
 app.use(express.json());
-// app.use(cors());
+app.use(cors());
 
-const corsOptions = {
-    origin: 'https://cosmic-smakager-674f47.netlify.app/',  // Replace with your actual frontend URL
-  };
-  app.use(cors(corsOptions));
+
 
 // Connection to database
 ConnDB();
