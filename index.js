@@ -50,7 +50,7 @@ app.use(express.json());
 // app.use(cors());
 
 const corsOptions = {
-    origin: 'https://your-frontend-url.netlify.app',  // Replace with your actual frontend URL
+    origin: 'https://cosmic-smakager-674f47.netlify.app/',  // Replace with your actual frontend URL
   };
   app.use(cors(corsOptions));
 
